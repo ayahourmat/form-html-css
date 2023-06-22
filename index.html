@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h3>Formulaire d'inscription</h3>
+   <form id="myForm" action="https://kode.ch/getpost/" method="post">
+    <label>Nom:</label> <br>
+    <input type="text" class="texte" id="inputChaine" placeholder="saisir votre nom" required> <br> <br>
+    <label>Prenom:</label> <br>
+    <input type="text" class="texte" id="texte" placeholder="saisir votre Prenom" required> <br> <br>
+    <label>Date de naissance:</label> <br>
+    <input type="date" class="texte"> <br> <br>
+    <label for="inputEmail">Email:</label> <br>
+    <input type="email" class="texte" id="inputEmail" placeholder="saisir votre Email"> <br> <br>
+    <label>Votre site:</label> <br>
+    <input type="text" class="texte" id="inputSite" placeholder="votre site web" required> <br> <br>
+    <label>Mot de pass:</label> <br>
+    <input type="password" class="texte" placeholder="votre mot de pass" required> <br> <br>
+    <label>Genre:</label>
+    <input type="radio" value="Masculin" class="radio">
+    <label for="Masculin">Homme</label>
+    <input type="radio" value="feminin" >
+    <label for="feminin">Femme</label> <br> <br>
+    <label>Pays:</label>
+    <select class="select">
+        <option >France</option>
+        <option >Maroc</option>
+        <option >chaina</option>
+    </select> <br> <br>
+    <label>Vos formation:</label> <br>
+    <input type="checkbox" class="check">
+    <label>Formation en html5</label> <br>
+    <input type="checkbox" class="check">
+    <label>Formation en css3</label> <br>
+    <input type="checkbox" class="check">
+    <label>Formation en js</label> <br> <br>
+    <textarea class="checke" cols="30" rows="10" placeholder="votre message"></textarea><br> <br>
+    <label>Photo:</label>
+    <input type="file" class="checkee"> <br> <br>
+    <button type="submit" id="submitBtn" >Envoyer</button>  
+    <input type="reset" value="Annuler" class="annuler">  
+   </form>
+   <script src="main.js"></script>
+</body>
+</html>

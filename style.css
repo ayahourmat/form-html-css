@@ -1,0 +1,62 @@
+form{
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 25PX rgba(0, 0, 0, 0.384);
+    background-color: rgba(96, 96, 243, 0.753);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+h3{
+    text-align: center;
+}
+input, select{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.texte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 35px;
+    border: 1px solid rgba(96, 96, 243, 0.753);
+    border-radius: 12px;
+}
+.radio{
+    margin-left: 130px;
+}
+.select{
+    margin-left: 200px;
+}
+.check{
+    margin-left: 200px;
+}
+.checke{
+    margin-left: 180px;
+}
+button{
+    margin-left: 400px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgba(84, 236, 84, 0.705);
+    border-radius: 18px;
+    background-color:rgba(84, 236, 84, 0.705) ;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.annuler{
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgba(241, 64, 64, 0.705) ;
+    border-radius: 18px;
+    background-color:rgba(241, 64, 64, 0.705) ;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.checkee{
+    margin-left: 150px;
+}
